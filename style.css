@@ -433,7 +433,7 @@ box-sizing: border-box;
 
 .footer {
 padding: 70px 0;
-background: url("jollibee-peek.png") no-repeat center center;
+background: url("vaultstreetwear.png") no-repeat center center;
 background-size: cover;
 }
 
@@ -471,7 +471,7 @@ content: '';
 position: absolute;
 left: 0;
 bottom: -10px;
-background-color: #fba409;
+background-color: #000;
 height: 2px;
 box-sizing: border-box;
 width: 50px;
@@ -490,7 +490,6 @@ font-weight: 300;
 color: #bbbbbb;
 display: block;
 transition: all 0.3s ease;
-font-family: 'Varela Round', sans-serif;
 }
 
 .footer-col ul li a:hover {
