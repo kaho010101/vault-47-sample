@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Re-design of Jollibee Website</title>
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <link rel="stylesheet" href="log-in.css">
+  <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="icon" type="image/jpg" href="https://i.pinimg.com/736x/4a/c9/6c/4ac96cf93e07bb096431538005c1b077.jpg">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="py-3 navbar navbar-expand-lg navbar-light fixed-top auto-hiding-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="jollibee-redesign.html">
+      <img class="logo" src="logo.png" height="50px"/>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="jollibee-redesign.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about-us.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="log-in.html">Login</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- End Navbar -->
+
+<div class="wrapper">
+  <div class="left-column">
+    <form id="loginForm" onsubmit="return false;">
+      <h1>SIGN IN</h1>
+      <div class="input-box">
+        <input type="text" id="email" placeholder="Email" required>
+        <i class='bx bxs-user'></i>
+      </div>
+      <div class="input-box">
+        <input type="password" id="password" placeholder="Password" required>
+        <i class='bx bxs-lock-alt'></i>
+      </div>
+      <div class="remember-forgot">
+        <label><input type="checkbox"> Remember me</label>
+        <a href="#">Forgot Password?</a>
+      </div>
+      <button type="button" onclick="login()" class="btn">SIGN IN</button>
+      <div class="register-link">
+        <p>Don't have an account? <a href="#">Register</a></p>
+        <p>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+      </div>
+    </form>
+  </div>
+  <div class="right-column">
+    <h2>New here?</h2>
+    <p>Sign up and connect with us:</p>
+    <a href="#" class="btn">SIGN UP</a>
+    <a href="#" class="btn facebook-btn"><i class='bx bxl-facebook'></i> Connect with Facebook</a>
+  </div>
+</div>
+
+<script>
+function login() {
+  var email = document.getElementById('email').value;
+  var password = document.getElementById('password').value;
+  
+  if (email === 'juandelacruz@gmail.com' && password === 'Juan1!') {
+    alert('Login successful!');
+    window.location.href = "jollibee-redesign.html";
+  } else {
+    alert('Invalid email or password. Please try again.');
+  }
+}
+</script>
+
+</body>
+</html>
