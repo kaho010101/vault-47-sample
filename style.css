@@ -239,7 +239,7 @@ transition: background-size 0.01s ease;
 #imagezoom-vault {
   position: relative;
   width: 100%;
-  background: url("https://img.freepik.com/premium-photo/young-man-hoodie-hip-hop-tunnel_494741-85778.jpg");
+  background: url("vault.jpg");
   background-size: 80%;
   background-position: center;
   padding: 50px 0;
