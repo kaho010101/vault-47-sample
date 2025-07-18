@@ -37,8 +37,8 @@ nav ul li a:hover {
   color: #c2a337 !important;
 }
 /* End of Navigation */
-/* Chickenjoy Bida ang saya*/
-#imagezoom-chickenjoy {
+
+#imagezoom-vault {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -49,7 +49,7 @@ nav ul li a:hover {
   transition: background-size 0.01s ease;
 }
 
-.chickenjoy-box {
+.vault-box {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -59,7 +59,7 @@ nav ul li a:hover {
   z-index: 1;
 }
 
-.chickenjoy-button {
+.vault-button {
   padding: 10px 20px;
   background-color: #fff;
   color: #000;
@@ -68,30 +68,29 @@ nav ul li a:hover {
   margin: 10px 0;
   font-size: 22px;
 }
-.chickenjoy-button:hover {
+.vault-button:hover {
   background-color: #535353;
   color: #fff;
 }
 
 @media (max-width: 768px) {
-  #imagezoom-chickenjoy {
+  #imagezoom-vault {
     background-size: cover; 
     background-attachment: scroll; 
   }
 
-  .chickenjoy-box h1 {
+  .vault-box h1 {
     font-size: 50px; 
   }
 
-  .chickenjoy-box p {
+  .vault-box p {
     font-size: 20px; 
   }
 
-  .chickenjoy-button {
+  .vault-button {
     font-size: 18px; 
   }
 }
-/* End of Chickenjoy Bida ang saya*/
 
 #hero {
   padding-top: 100px;
@@ -143,7 +142,7 @@ p {
   margin-bottom: 20px;
 }
 
-#menu .menu {
+#shop .shop {
   margin-bottom: 50px; 
 }
 
@@ -199,7 +198,7 @@ margin-bottom: 100px;
 
 /*End of About us */
 
-.menubg {
+.shopbg {
 background-image: url('C:\Users\Joana Marie Zapanta\Downloads\fastfood.png');
   background-size: cover;
   background-position: center;
@@ -236,8 +235,8 @@ background-position: center;
 background-attachment: fixed;
 transition: background-size 0.01s ease; 
 }
-/* Yellow bg chicken */
-#imagezoom-chicken {
+
+#imagezoom-vault {
   position: relative;
   width: 100%;
   background: url("https://scontent.fmnl30-2.fna.fbcdn.net/v/t1.15752-9/449706426_784878857178544_5734235659034094612_n.png?_nc_cat=100&ccb=1-7&_nc_sid=9f807c&_nc_ohc=-hDCWMbfSwgQ7kNvgHm4HHu&_nc_ht=scontent.fmnl30-2.fna&cb_e2o_trans=t&oh=03_Q7cD1QFYyXAmwkZbh_XhrU7gXw4oEio5CrCg_2UrMvP7ao6iPg&oe=66B0975D");
@@ -250,7 +249,7 @@ transition: background-size 0.01s ease;
   transition: background-size 0.01s ease; 
 }
 
-#imagezoom-chicken h1 {
+#imagezoom-vault h1 {
   font-size: 42px;
   color: #fff;
 }
@@ -264,22 +263,6 @@ transition: background-size 0.01s ease;
   justify-content: space-between;
   font-family: 'Varela Round', sans-serif;
   margin-bottom: 5px; 
-}
-/* End of Yellow bg chicken */
-
-/* Burger */
-#imagezoom-burger {
-  position: relative;
-  width: 100%;
-  height: 90vh;
-  background: url("https://scontent.xx.fbcdn.net/v/t1.15752-9/450095173_1041263580901592_819800227817545595_n.png?stp=dst-png_p403x403&_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=ReOUZcv5Ps0Q7kNvgHf5G-J&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&cb_e2o_trans=t&oh=03_Q7cD1QHt-8bewfhXwJIaWs9sqFwm_xS79kT40sSBY-UeUwd5jQ&oe=66B0A78D");
-  background-size: 80%; 
-  background-position: center;
-  padding: 50px 0;
-  text-align: center;
-  margin-top: 0;
-  background-attachment: fixed;
-  transition: background-size 0.01s ease; 
 }
 .cardpromotion {
   background-color: #221f0c4a; 
@@ -310,7 +293,6 @@ transition: background-size 0.01s ease;
       transform: translateY(0);
   }
 }
-/* End of Burger */
 
 .promotion-img {
   height: 400px;
