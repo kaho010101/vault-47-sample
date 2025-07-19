@@ -403,6 +403,10 @@ box-shadow: 2px 2px 12px rgba(47, 47, 47, 0.4);
   color: #f7f4cf;
 }
 
+.card-link:hover .card small {
+  color: #f7f4cf !important;
+}
+
 #fixed-home-button {
   position: fixed;
   bottom: 20px;
